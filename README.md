@@ -39,27 +39,42 @@ Speako is an AI-powered web application that helps users improve their English s
 
 speako/
 │
+
 ├── index.html
+
 ├── assets/
+
 │   ├── css/
+
 │   ├── js/
+
 │   └── images/
+
 │
+
 ├── backend/
+
 │   ├── api/
+
 │   ├── models/
+
 │   ├── helpers/
+
 │   └── config.php
+
 │
+
 ├── data/
+
 ├── logs/
+
 └── README.md
 
 ---
 
 ## 🚀 Installation (Local Setup)
 
-git clone https://github.com/YOUR_USERNAME/speako.git
+git clone https://github.com/kuldeeppatel2304/speako.git
 
 cd speako
 
