@@ -139,6 +139,7 @@ INSERT INTO paragraphs (content, difficulty) VALUES
 🚀 Founder @ DigiMitro  
 🌐 Portfolio: https://kuldeeppatel.in  
 📩 Let's connect & build something amazing!
+
 ---
 
 ## ⭐ Support
