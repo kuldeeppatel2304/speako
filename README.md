@@ -135,8 +135,10 @@ INSERT INTO paragraphs (content, difficulty) VALUES
 
 ## 👨‍💻 Author
 
-Kuldeep Patel
-
+**Kuldeep Patel**  
+🚀 Founder @ DigiMitro  
+🌐 Portfolio: https://kuldeeppatel.in  
+📩 Let's connect & build something amazing!
 ---
 
 ## ⭐ Support
