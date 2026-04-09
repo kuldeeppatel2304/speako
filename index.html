@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speako - English Speaking Practice</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>🎤 Speako</h1>
+        <p>Improve your English speaking with AI</p>
+    </header>
+
+    <div class="card">
+        <h2>📄 Paragraph</h2>
+        <p id="paragraph">Click Start to begin...</p>
+    </div>
+
+    <div class="controls">
+        <button id="startBtn">▶ Start</button>
+        <button id="recordBtn" disabled>🎙 Speak</button>
+        <button id="stopBtn" disabled>⏹ Stop</button>
+        <button id="submitBtn" disabled>✅ Submit</button>
+    </div>
+
+    <div class="card">
+        <h2>🗣 Your Speech</h2>
+        <p id="spokenText">...</p>
+    </div>
+
+    <div class="card result-card">
+        <h2>📊 Result</h2>
+        <div class="result-grid">
+            <div><h3>Accuracy</h3><p id="accuracy">0%</p></div>
+            <div><h3>Fluency</h3><p id="fluency">0%</p></div>
+            <div><h3>Grammar</h3><p id="grammar">0%</p></div>
+            <div><h3>Total</h3><p id="total">0%</p></div>
+        </div>
+    </div>
+
+</div>
+
+<script src="assets/js/utils.js"></script>
+<script src="assets/js/api.js"></script>
+<script src="assets/js/speech.js"></script>
+<script src="assets/js/score.js"></script>
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>
