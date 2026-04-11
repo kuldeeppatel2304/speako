@@ -1,0 +1,168 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1b3b5f, #3a7bd5);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 900px;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+header p {
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+/* Card */
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+.card h2 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/* Paragraph */
+#paragraph {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+/* Spoken Text */
+#spokenText {
+    font-size: 1.1rem;
+    color: #ffe082;
+}
+
+/* Controls */
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s;
+    font-size: 0.95rem;
+}
+
+/* Button Colors */
+#startBtn {
+    background: #00c853;
+    color: white;
+}
+
+#recordBtn {
+    background: #ff9800;
+    color: white;
+}
+
+#stopBtn {
+    background: #f44336;
+    color: white;
+}
+
+#submitBtn {
+    background: #2196f3;
+    color: white;
+}
+
+/* Hover */
+button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+/* Disabled */
+button:disabled {
+    background: #aaa !important;
+    cursor: not-allowed;
+}
+
+/* Result Card */
+.result-card {
+    text-align: center;
+}
+
+/* Result Grid */
+.result-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 15px;
+}
+
+/* Result Box */
+.result-grid div {
+    background: rgba(255,255,255,0.15);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Result Text */
+.result-grid h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.result-grid p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .result-grid {
+        grid-template-columns: 1fr;
+    }
+
+    button {
+        width: 100%;
+    }
+}
